@@ -1,0 +1,82 @@
+#Example of how the code runs in the compiler and the game is played. 
+
+Welcome to Tic Tac Toe: 
+|---|---|---|
+| 1 | 2 | 3 |
+|-----------|
+| 4 | 5 | 6 |
+|-----------|
+| 7 | 8 | 9 |
+|---|---|---|
+X's turn. Enter a slot number to place X in:
+8
+|---|---|---|
+| 1 | 2 | 3 |
+|-----------|
+| 4 | 5 | 6 |
+|-----------|
+| 7 | X | 9 |
+|---|---|---|
+O's turn. Enter a slot number to place O in:
+9
+|---|---|---|
+| 1 | 2 | 3 |
+|-----------|
+| 4 | 5 | 6 |
+|-----------|
+| 7 | X | O |
+|---|---|---|
+X's turn. Enter a slot number to place X in:
+7
+|---|---|---|
+| 1 | 2 | 3 |
+|-----------|
+| 4 | 5 | 6 |
+|-----------|
+| X | X | O |
+|---|---|---|
+O's turn. Enter a slot number to place O in:
+4
+|---|---|---|
+| 1 | 2 | 3 |
+|-----------|
+| O | 5 | 6 |
+|-----------|
+| X | X | O |
+|---|---|---|
+X's turn. Enter a slot number to place X in:
+5
+|---|---|---|
+| 1 | 2 | 3 |
+|-----------|
+| O | X | 6 |
+|-----------|
+| X | X | O |
+|---|---|---|
+O's turn. Enter a slot number to place O in:
+3
+|---|---|---|
+| 1 | 2 | O |
+|-----------|
+| O | X | 6 |
+|-----------|
+| X | X | O |
+|---|---|---|
+X's turn. Enter a slot number to place X in:
+7
+Slot already taken; re-enter slot number:
+5
+Slot already taken; re-enter slot number:
+7
+Slot already taken; re-enter slot number:
+8
+Slot already taken; re-enter slot number:
+2
+|---|---|---|
+| 1 | X | O |
+|-----------|
+| O | X | 6 |
+|-----------|
+| X | X | O |
+|---|---|---|
+Congratulations! X's have won! Thanks for playing.
