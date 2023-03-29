@@ -5,23 +5,18 @@ TIC TAC TOE GAME
 3. Two players will play the game - 'X' & 'O'.
 
 Code Explanation
-1. In every turn, player chooses the position (row,col) he want
-keep his mark in the game board (3x3).
+1. In every turn, player chooses the position (row,col) he want keep his mark in the game board (3x3).
 Eg. 0 1, 2 0, 0 0, 2 2, 1 1 etc...
 
-2. There are two functions "printBoard()" and "haveWon()"
-written in the code.
-printBoard() - prints the Game Board.
-haveWon() - It's the Winning Algorithm of this game.
+2. There are two functions "printBoard()" and "haveWon()" written in the code.
+- printBoard() - prints the Game Board.
+- haveWon() - It's the Winning Algorithm of this game.
 
-3. In the main function - while loop for every turn we will
-check if the player has won the game (haveWon()).
-If any player has won the game we'll declare the player won and
-stop the game or else the other player will get his turn to play.
+3. In the main function - while loop for every turn we will check if the player has won the game (haveWon()). 
+   If any player has won the game we'll declare the player won and
+   stop the game or else the other player will get his turn to play.
 
 haveWon() - Winning Algorithm!
-1. Check for rows - All positions must be filled with
-the same player in a row.
-2. Check for column - All positions must be filled with
-the same player in a column.
-3. Checking for Diagonals.
+- Check for rows - All positions must be filled with the same player in a row.
+- Check for column - All positions must be filled with the same player in a column.
+- Checking for Diagonals.
