@@ -1,82 +1,48 @@
 #Example of how the code runs in the compiler and the game is played. 
 
-Welcome to Tic Tac Toe: 
-|---|---|---|
-| 1 | 2 | 3 |
-|-----------|
-| 4 | 5 | 6 |
-|-----------|
-| 7 | 8 | 9 |
-|---|---|---|
-X's turn. Enter a slot number to place X in:
-8
-|---|---|---|
-| 1 | 2 | 3 |
-|-----------|
-| 4 | 5 | 6 |
-|-----------|
-| 7 | X | 9 |
-|---|---|---|
-O's turn. Enter a slot number to place O in:
-9
-|---|---|---|
-| 1 | 2 | 3 |
-|-----------|
-| 4 | 5 | 6 |
-|-----------|
-| 7 | X | O |
-|---|---|---|
-X's turn. Enter a slot number to place X in:
-7
-|---|---|---|
-| 1 | 2 | 3 |
-|-----------|
-| 4 | 5 | 6 |
-|-----------|
-| X | X | O |
-|---|---|---|
-O's turn. Enter a slot number to place O in:
-4
-|---|---|---|
-| 1 | 2 | 3 |
-|-----------|
-| O | 5 | 6 |
-|-----------|
-| X | X | O |
-|---|---|---|
-X's turn. Enter a slot number to place X in:
-5
-|---|---|---|
-| 1 | 2 | 3 |
-|-----------|
-| O | X | 6 |
-|-----------|
-| X | X | O |
-|---|---|---|
-O's turn. Enter a slot number to place O in:
-3
-|---|---|---|
-| 1 | 2 | O |
-|-----------|
-| O | X | 6 |
-|-----------|
-| X | X | O |
-|---|---|---|
-X's turn. Enter a slot number to place X in:
-7
-Slot already taken; re-enter slot number:
-5
-Slot already taken; re-enter slot number:
-7
-Slot already taken; re-enter slot number:
-8
-Slot already taken; re-enter slot number:
-2
-|---|---|---|
-| 1 | X | O |
-|-----------|
-| O | X | 6 |
-|-----------|
-| X | X | O |
-|---|---|---|
-Congratulations! X's have won! Thanks for playing.
+  |   |   | 
+  |   |   | 
+  |   |   | 
+Player X Enter: 
+1 1
+  |   |   | 
+  | X |   | 
+  |   |   | 
+Player O Enter: 
+1 0 
+  |   |   | 
+O | X |   | 
+  |   |   | 
+Player X Enter: 
+1 2
+  |   |   | 
+O | X | X | 
+  |   |   | 
+Player O Enter: 
+2 2
+  |   |   | 
+O | X | X | 
+  |   | O | 
+Player X Enter: 
+2 1
+  |   |   | 
+O | X | X | 
+  | X | O | 
+Player O Enter: 
+2 0
+  |   |   | 
+O | X | X | 
+O | X | O | 
+Player X Enter: 
+0 2
+  |   | X | 
+O | X | X | 
+O | X | O | 
+Player O Enter: 
+0 0
+O |   | X | 
+O | X | X | 
+O | X | O | 
+Player O has won!
+
+Process finished with exit code 0
